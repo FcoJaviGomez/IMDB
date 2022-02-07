@@ -30,21 +30,20 @@ class Profesional {
         this.profession = profession
 
     }
-    public valorAtributos(): string {
+    public valorAtributos(): void {
 
-        return "Name - " + this.name +
-            "\nAge - " + this.age +
-            "\nGenre - " + this.genre +
-            "\nWeight - " + this.weight +
-            "\nheight - " + this.height +
-            "\nHairColor - " + this.hairColor +
-            "\nEyesColor - " + this.eyeColor +
-            "\nRace - " + this.race +
-            "\nIsRetired - " + this.isRetired +
-            "\nNationality - " + this.nationality +
-            "\nOscarNumber - " + this.oscarsNumber +
-            "\nProfession - " + this.profession
-
+        console.log(this.name);
+        console.log(this.age);
+        console.log(this.genre);
+        console.log(this.weight);
+        console.log(this.height);
+        console.log(this.hairColor);
+        console.log(this.eyeColor);
+        console.log(this.race);
+        console.log(this.isRetired);
+        console.log(this.nationality);
+        console.log(this.oscarsNumber);
+        console.log(this.profession);
     }
 
 }
